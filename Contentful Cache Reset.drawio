@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T03:12:13.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="GKHy6f2bHUEPNV0hagKI" version="14.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-16T03:24:10.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Qb7J7cfsFrmOuH1UtEfY" version="14.6.9" type="github" pages="2">
   <diagram id="_9SRqA-9XYTzpuE4ERGH" name="Cache">
     <mxGraphModel dx="968" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
         <mxCell id="sOccohnL0xESqHE3Cxpw-17" value="Service Bus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
           <mxGeometry x="510" y="240" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sOccohnL0xESqHE3Cxpw-18" value="Function to Reset Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
+        <mxCell id="sOccohnL0xESqHE3Cxpw-18" value="Function to Reset Cache and Add Search Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
           <mxGeometry x="500" y="375" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sOccohnL0xESqHE3Cxpw-19" value="Content Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
@@ -174,14 +174,17 @@
             <mxPoint x="240" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sOccohnL0xESqHE3Cxpw-29" value="Article Slug add or delete, insert or delete data&amp;nbsp; in Cosmos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
-          <mxGeometry x="150" y="206" width="150" height="20" as="geometry" />
+        <mxCell id="sOccohnL0xESqHE3Cxpw-29" value="When Article Slug is added or deleted, article summary with related tags will be added into Cosmos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
+          <mxGeometry x="135" y="206" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sOccohnL0xESqHE3Cxpw-30" value="" style="endArrow=classic;html=1;strokeColor=#007FFF;strokeWidth=3;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="sOccohnL0xESqHE3Cxpw-1" source="sOccohnL0xESqHE3Cxpw-9" target="sOccohnL0xESqHE3Cxpw-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="268" as="sourcePoint" />
             <mxPoint x="370" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sOccohnL0xESqHE3Cxpw-31" value="&lt;h1&gt;&lt;div style=&quot;font-size: 18px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;On Article Publish, After resetting cache, get article slug with related tags and insert into cosmos&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Enhancements:&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;Can we store article summary n serve from cosmos?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="sOccohnL0xESqHE3Cxpw-1">
+          <mxGeometry x="510" y="480" width="320" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
